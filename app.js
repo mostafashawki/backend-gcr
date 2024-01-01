@@ -6,7 +6,7 @@ const port = 3003;
 app.use(cors());
 app.use(express.json());
 
-app.get('/api/data', (req, res) => {
+app.get('/', (req, res) => {
   const jsonData = { message: 'Hello from the server!' };
   res.json(jsonData);
 });
