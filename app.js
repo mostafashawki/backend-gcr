@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  const jsonData = { message: 'Hello from the server version 2!' };
+  const jsonData = { message: 'Hello from the server - AUTO DEPLOY WORKS!' };
   res.json(jsonData);
 });
 
