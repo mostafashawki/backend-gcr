@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3003
 
 # Run server.js when the container launches
-CMD ["node", "server.js"]
+CMD ["node", "app.js"]
